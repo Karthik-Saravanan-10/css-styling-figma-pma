@@ -1,0 +1,58 @@
+body {
+    font-family: Inter;
+    width: 100%;
+}
+
+.image-content{
+    display: flex;
+    gap: 24px;
+}
+
+.pagination p:first-child {
+    color: #BDBDBD;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.pagi-content p:first-child {
+    background-color: #223354;
+}
+
+.pagi-content {
+    display: flex;
+    gap: 10px;
+}
+
+.pagi-content p {
+    box-sizing: border-box;
+    width: 48px;
+    height: 48px;
+    border: 1px solid #828282;
+    border-radius: 4px;
+    text-align: center;
+    padding-top: 16px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #828282;
+}
+
+.model-banner{
+    display: flex;
+    gap: 86px;
+}
+
+.model-logo{
+    width: 96px;
+    height: 96px;
+}
+
+.model-content{
+    width: 388px;
+    height: 346px;
+}
+
+.banner-content{
+    width: 582px;
+    height: 271px;
+    background-color: #223354;
+}

@@ -1,0 +1,451 @@
+body {
+    font-family: Inter;
+}
+
+.container {
+    display: flex;
+}
+
+.content-01 {
+    display: flex;
+    gap: 84px;
+}
+
+.container {
+    padding: 0 48px;
+}
+
+.left {
+    width: 420px;
+    height: fit-content;
+}
+
+.left-p {
+    font-weight: 500;
+    color: #BDBDBD;
+    font-size: 16px;
+}
+
+select {
+    width: 320px;
+    height: 55px;
+    border-radius: 4px;
+    border: 1px solid #BDBDBD;
+    color: #4F4F4F;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 24px;
+}
+
+.drop-down {
+    margin-bottom: 48px;
+}
+
+button {
+    text-align: left;
+    padding-left: 24px;
+    width: 320px;
+    height: 56px;
+    background-color: #FFFFFF;
+    border: 1px solid #BDBDBD;
+    color: #4F4F4F;
+    font-size: 16px;
+}
+
+.dropdown:hover .drop-content a {
+    display: block;
+}
+
+.drop-content {
+    margin-top: 8px;
+}
+
+.drop-content a {
+    display: block;
+    text-decoration: none;
+    border: 1px solid #BDBDBD;
+    width: 320px;
+    height: 56px;
+    color: #4F4F4F;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 24px;
+    padding-top: 16px;
+    box-sizing: border-box;
+}
+
+.drop-content a:hover {
+    background-color: #223354;
+    color: #FFFFFF;
+}
+
+.arrow {
+    padding-left: 200px;
+}
+
+.content-01 {
+    line-height: 2;
+}
+
+.toggle {
+    display: flex;
+    flex-direction: column;
+}
+
+.toggle-01 {
+    display: flex;
+}
+
+.large-selecet-01 {
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #223354;
+    margin-bottom: 16px;
+}
+
+.large-selecet-02 {
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    color: #BDBDBD;
+}
+
+.content-02 {
+    display: flex;
+
+}
+
+.calender {
+    margin-top: 13px;
+    ;
+    margin-left: 63px;
+    width: 250px;
+    height: 307px;
+    box-sizing: border-box;
+}
+
+td {
+    text-align: center;
+}
+
+tr td {
+    width: 30px;
+    height: 30px;
+}
+
+.calender-font {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.calender-font-fut {
+    color: #4F4F4F;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.td-9 {
+    padding: 0;
+    margin-bottom: 50px;
+    color: white;
+    border-radius: 50%;
+    background-color: #223354;
+}
+
+/* pagination */
+
+.pagination p:first-child {
+    color: #BDBDBD;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.pagi-content p:first-child {
+    background-color: #223354;
+}
+
+.pagi-content {
+    display: flex;
+    gap: 10px;
+}
+
+.pagi-content p {
+    box-sizing: border-box;
+    width: 48px;
+    height: 48px;
+    border: 1px solid #828282;
+    border-radius: 4px;
+    text-align: center;
+    padding-top: 16px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #828282;
+}
+
+/* breadscreams */
+.bread-content {
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #828282;
+}
+
+/* tabs */
+
+a{
+    text-decoration: none;
+    color: #828282;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+a:hover{
+    border-bottom: 4px solid #333333;
+    color: #333333;
+}
+
+.sec-2{
+    padding-left: 10px;
+}
+
+.tab-content-01{
+    box-sizing: border-box;
+    width: 155px;
+    border-bottom: 4px solid #E0E0E0;
+}
+/* 610px -top */
+.bottom{
+    position: absolute;
+    top: 510px;  
+    display: flex;
+    gap: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* checkbox */
+.label {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    font-weight: 400;
+    color: #4F4F4F;
+}
+
+
+/* Hide the browser's default checkbox */
+.label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 4px;
+}
+
+/* On mouse-over, add a grey background color */
+.label:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.label input:checked~.checkmark {
+    background-color: #223354;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.label input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.label .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/* radio */
+
+.label-01 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    font-weight: 400;
+    color: #223354;
+}
+
+
+/* Hide the browser's default checkbox */
+.label-01 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark-01 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #FFFFFF;
+    border: 2px solid #223354;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.label-01:hover input~.checkmark {
+    background-color: #223354;
+}
+
+/* When the checkbox is checked, add a blue background */
+.label-01 input:checked~.checkmark {
+    background-color: #223354;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark-01:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.label-01 input:checked~.checkmark-01:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.label-01 .checkmark-01:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-radius: 10%;
+    border-width: 3px 3px 3px 3px;
+}
+
+.label-01 .checkmark-01:after {
+    top: 3px;
+    left: 3px;
+    width: 15px;
+    height: 15px;
+    border-radius: 70%;
+    background: #223354;
+}
+
+/* toggle */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #223354;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #223354;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}

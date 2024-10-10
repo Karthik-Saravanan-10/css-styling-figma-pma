@@ -1,0 +1,45 @@
+body {
+    font-family: Inter;
+    width: 100%;
+}
+
+.container{
+    display: inline-flex;
+    gap: 81px;
+}
+
+.left{
+    width: 50%;
+    height: auto;
+}
+
+.right{
+    width: 50%;
+    height: auto;
+}
+
+.bar-01{
+    width: 589px;
+    height: 24px;
+    border-radius: 4px;
+    background-color: #E0E0E0;
+}
+
+.bar-content-01{
+    background-color: #223354;
+    width: 50%;
+    height: 24px;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+}
+
+.progress-bar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(hotpink 75%, pink 0);    
+  }

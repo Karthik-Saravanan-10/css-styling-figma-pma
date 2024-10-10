@@ -1,0 +1,58 @@
+body{
+    font-family: Inter;
+    
+}
+
+table,tr{
+    width: 90%;
+    color: #828282;
+}
+
+tr{
+    height: 230px;
+}
+
+.top-right{
+    top: 90px;
+    display: flex;
+    gap: 20px;
+}
+
+.top-right-p{
+    display: inline-table;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.row-font-p{
+    top:0;
+    text-align: start;
+    font-weight: 500;
+    font-size: 32px;
+    padding-left: 48px;
+}
+
+.top-right-p p span{
+    color:#223354;
+    font-weight: 700;
+}
+
+.test{
+    position: absolute;
+    top: 30px;
+}
+
+.bottom{
+    position: relative;
+    top: 45px;
+}
+
+.outline,.inline{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-p{
+    font-size: 16px;
+    font-weight: 500;
+}
