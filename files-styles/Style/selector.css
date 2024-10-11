@@ -120,13 +120,13 @@ button {
 }
 
 .calender {
-    margin-top: 13px;
-    ;
+    margin-top: 2px;
     margin-left: 63px;
     width: 250px;
     height: 307px;
     box-sizing: border-box;
 }
+
 
 td {
     text-align: center;
@@ -171,6 +171,7 @@ tr td {
 .pagi-content {
     display: flex;
     gap: 10px;
+    align-items: center;
 }
 
 .pagi-content p {
@@ -233,9 +234,6 @@ a:hover{
 
 
 
-
-
-
 /* checkbox */
 .label {
     display: block;
@@ -270,7 +268,8 @@ a:hover{
     left: 0;
     height: 25px;
     width: 25px;
-    background-color: #eee;
+    /* background-color: #eee; */
+    border: 2px solid #828282;
     border-radius: 4px;
 }
 
@@ -282,6 +281,7 @@ a:hover{
 /* When the checkbox is checked, add a blue background */
 .label input:checked~.checkmark {
     background-color: #223354;
+    border: 2px solid #223354;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -343,7 +343,7 @@ a:hover{
     height: 25px;
     width: 25px;
     background-color: #FFFFFF;
-    border: 2px solid #223354;
+    border: 2px solid #828282;
     border-radius: 50%;
 }
 
@@ -355,6 +355,7 @@ a:hover{
 /* When the checkbox is checked, add a blue background */
 .label-01 input:checked~.checkmark {
     background-color: #223354;
+    border: 2px solid #223354;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */

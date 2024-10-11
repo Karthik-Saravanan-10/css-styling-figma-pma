@@ -130,9 +130,14 @@ textarea{
 
 .con{
     height: 150px;
+    /* margin-top: 50px; */
 }
 
 .right{
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+}
+
+.middle .con{
+    margin-top: 40px;
 }

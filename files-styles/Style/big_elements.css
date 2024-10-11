@@ -1,12 +1,18 @@
 body {
     font-family: Inter;
-    width: 100%;
+    max-width: 100%;
+    margin-left: 48px;
 }
 
 .image-content{
     display: flex;
     gap: 24px;
 }
+
+/* .pagination{
+    position: relative;
+    justify-content: end;  
+} */
 
 .pagination p:first-child {
     color: #BDBDBD;
@@ -21,6 +27,7 @@ body {
 .pagi-content {
     display: flex;
     gap: 10px;
+    align-items: center;
 }
 
 .pagi-content p {
@@ -55,4 +62,94 @@ body {
     width: 582px;
     height: 271px;
     background-color: #223354;
+}
+
+.font-p{
+    color: #BDBDBD;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.font-h2{
+    color: #223354;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.font-con{
+    font-size: 16px;
+    font-weight: 400;
+    color: #4F4F4F;
+    width: 478px;
+    height: 54px;
+}
+
+.p-con{
+    color: #000000;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+table tr td button{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    width: 88px;
+    height: 49px;
+    border-radius: 8px;
+    background-color: #1AB4D7;
+    border: none;
+}
+
+td{
+    width: 161px;
+    height: 63px;
+}
+
+tr td:first-child{
+    width: 62px;
+    padding-left: 24px;
+}
+
+table{
+    border-collapse: collapse;
+    padding-left: 10px;
+}
+
+tr:nth-child(odd) {
+    background-color: #E0E0E066;
+  }
+
+tr:first-child{
+    background-color: #223354;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+tr{
+    font-weight: 400;
+    font-size: 16px;
+    color: #4F4F4F;
+    border-radius: 4px;
+}
+
+.model{
+    text-align: center;
+}
+
+.model-logo{
+    margin-left: 146px;
+    margin-top: 32px;
+    width: 96px;
+    height: 96px;
+    background-color: #E0E0E0;
+}
+
+.model-content{
+    box-shadow: 0px 2px 4px 0px #0000003D;
+    width: 388px;
+    height: 346px;
 }

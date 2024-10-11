@@ -22,7 +22,7 @@ body {
 .left div,
 .middle div,
 .right div {
-    line-height: 0;
+    line-height: 0.5;
 }
 
 .left div button,
@@ -35,7 +35,7 @@ body {
     background-color: #EDF0F5;
     padding: 21px;
     width: 371px;
-    height: 113px;
+    height: 143px;
     line-height: 0.3;
     box-sizing: border-box;
     border-radius: 4px;
@@ -56,11 +56,11 @@ div.right-box p {
 .table-01,
 .container-02 {
     display: flex;
-    gap: 44px;
+    /* gap: 44px; */
 }
 
-.table-01 div {
-    width: 100%;
+.table-01 .left,.table-01 .middle,.table-01 .right{
+    margin-right: 69px;
 }
 
 button {
