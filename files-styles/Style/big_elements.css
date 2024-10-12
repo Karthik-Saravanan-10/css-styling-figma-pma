@@ -2,11 +2,16 @@ body {
     font-family: Inter;
     max-width: 100%;
     margin-left: 48px;
+    height: 500vh;
 }
 
-.image-content{
+.image-content {
     display: flex;
     gap: 24px;
+}
+
+.tables {
+    margin-top: 48px;
 }
 
 /* .pagination{
@@ -43,40 +48,45 @@ body {
     color: #828282;
 }
 
-.model-banner{
+.model-banner {
     display: flex;
     gap: 86px;
+    margin-top: 40px;
 }
 
-.model-logo{
-    width: 96px;
-    height: 96px;
-}
-
-.model-content{
-    width: 388px;
-    height: 346px;
-}
-
-.banner-content{
+.banner-content {
     width: 582px;
-    height: 271px;
+    height: 232px;
     background-color: #223354;
+    border-radius: 8px;
+    color: #FFFFFF;
+    display: flex;
+    box-sizing: border-box;
 }
 
-.font-p{
+.banner-img img {
+    margin-top: 20px;
+}
+
+.banner-con-01 {
+    width: 377px;
+    height: 168px;
+    padding-left: 24px;
+}
+
+.font-p {
     color: #BDBDBD;
     font-weight: 500;
     font-size: 16px;
 }
 
-.font-h2{
+.font-h2 {
     color: #223354;
     font-size: 24px;
     font-weight: 700;
 }
 
-.font-con{
+.font-con {
     font-size: 16px;
     font-weight: 400;
     color: #4F4F4F;
@@ -84,14 +94,15 @@ body {
     height: 54px;
 }
 
-.p-con{
+.p-con {
     color: #000000;
     font-weight: 700;
     font-size: 16px;
 }
 
 
-table tr td button{
+table tr td button,
+.banner-con-01 button {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 16px;
@@ -102,26 +113,26 @@ table tr td button{
     border: none;
 }
 
-td{
+td {
     width: 161px;
     height: 63px;
 }
 
-tr td:first-child{
+tr td:first-child {
     width: 62px;
     padding-left: 24px;
 }
 
-table{
+table {
     border-collapse: collapse;
     padding-left: 10px;
 }
 
 tr:nth-child(odd) {
     background-color: #E0E0E066;
-  }
+}
 
-tr:first-child{
+tr:first-child {
     background-color: #223354;
     border-radius: 4px;
     font-size: 16px;
@@ -129,27 +140,126 @@ tr:first-child{
     color: #FFFFFF;
 }
 
-tr{
+tr {
     font-weight: 400;
     font-size: 16px;
     color: #4F4F4F;
     border-radius: 4px;
 }
 
-.model{
-    text-align: center;
-}
 
-.model-logo{
+.model-logo {
+    display: inline-block;
     margin-left: 146px;
     margin-top: 32px;
     width: 96px;
     height: 96px;
     background-color: #E0E0E0;
+    border-radius: 8px;
 }
 
-.model-content{
+.model-content {
     box-shadow: 0px 2px 4px 0px #0000003D;
     width: 388px;
     height: 346px;
+    border-radius: 8px;
 }
+
+.model-con-01 {
+    width: 240px;
+    height: 83px;
+    padding-left: 74px;
+    text-align: center;
+}
+
+.model-content button {
+    width: 275px;
+    height: 55px;
+    border-radius: 8px;
+    margin-top: 24px;
+    margin-left: 57px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    background-color: #223354;
+}
+
+.acc-top {
+    width: 493px;
+    /* height: 163px; */
+    border: 1px solid #BDBDBD;
+    border-radius: 8px;
+}
+
+.acc-top p {
+    color: #223354;
+    font-weight: 700;
+    font-size: 16px;
+    padding-left: 24px;
+}
+
+.acc-bottom {
+    width: 493px;
+    height: 181px;
+}
+
+.acc-bottom p {
+    box-shadow: 0px 2px 16px 0px #0000001A;
+    height: 55px;
+    color: #223354;
+    font-weight: 700;
+    font-size: 16px;
+    padding-left: 24px;
+    padding-top: 16px;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+}
+
+.accordion {
+    margin-top: 56px
+}
+
+.acc-content {
+    display: flex;
+    gap: 29px;
+}
+
+.acc-right {
+    width: 534px;
+}
+
+.acc-right-con h4 {
+    /* border-bottom: 2px solid #BDBDBD; */
+    margin: 0;
+    color: #223354;
+    font-weight: 700;
+    font-size: 16px;
+    padding-left: 24px;
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid #BDBDBD;
+    border-collapse: collapse;
+}
+
+
+
+.acc-right-con h4:first-child {
+    background-color: #223354;
+    color: #FFFFFF;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.acc-right-con h4:last-child{
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.acc-right-con p{
+    padding: 24px;
+    background-color: #E0E0E0;
+    margin: 0;
+}
+
