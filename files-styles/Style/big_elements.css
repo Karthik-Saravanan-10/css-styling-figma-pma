@@ -2,7 +2,6 @@ body {
     font-family: Inter;
     max-width: 100%;
     margin-left: 48px;
-    height: 500vh;
 }
 
 .image-content {
@@ -13,11 +12,6 @@ body {
 .tables {
     margin-top: 48px;
 }
-
-/* .pagination{
-    position: relative;
-    justify-content: end;  
-} */
 
 .pagination p:first-child {
     color: #BDBDBD;
@@ -252,14 +246,13 @@ tr {
     border-top-right-radius: 8px;
 }
 
-.acc-right-con h4:last-child{
+.acc-right-con h4:last-child {
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
 }
 
-.acc-right-con p{
+.acc-right-con p {
     padding: 24px;
     background-color: #E0E0E0;
     margin: 0;
 }
-

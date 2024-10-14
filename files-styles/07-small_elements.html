@@ -18,7 +18,7 @@
 
     <div class="container">
         <div class="left">
-            <p>File Upload</p>
+            <p class="title-font">File Upload</p>
             <div class="input-01">
                 <input type="file">
                 <p class="font-p">No files Selected</p>
@@ -26,7 +26,7 @@
             </div>
 
             <div class="input-01">
-                <input type="file">
+
                 <div class="input-img" style=" background-color: #223354;">
                     <img src="/icon/small/Icon 24 x 24.png" alt="" width="18px" height="20px">
                     <p class="font-p-01">Sample.jpg</p>
@@ -35,19 +35,31 @@
             </div>
 
             <div class="input-01">
-                <input type="file">
+
                 <div class="input-img">
-                    <img src="/icon/inline/File-fill.png" alt="" width="22px" height="22px" >
+                    <img src="/icon/inline/File-fill.png" alt="" width="22px" height="22px">
                     <p class="font-p-02">Sample.jpg</p>
                 </div>
-                <img src="/icon/small/Icon Checked.png" alt="" width="32px" height="32px" class="input-01-right" style="padding-top: 10;">
+                <img src="/icon/small/Icon Checked.png" alt="" width="32px" height="32px" class="input-01-right"
+                    style="padding-top: 10;">
             </div>
 
             <div class="upload-file">
                 <p class="font-p-02">Upload File</p>
                 <div class="drag">
-                    <img src="/icon/small/drag-2.png" alt="" srcset=""
-                        style="top: 5px;position:relative;">
+                    <img src="/icon/small/File-fill.png" alt="" srcset="" style="top: 5px;position:relative;">
+                    <p>Drag n Drop here</p>
+                    <p>or</p>
+                    <input type="file">
+                    <p style="color: #223354;font-weight:700;">Browse</p>
+                </div>
+                <p class="btn">Upload Now</p>
+            </div>
+
+            <div class="upload-file">
+                <p class="font-p-02">Upload File</p>
+                <div class="drag" style="border-color: #223354;">
+                    <img src="/icon/small/drag-2.png" alt="" srcset="" style="top: 5px;position:relative;">
                     <p>Drag n Drop here</p>
                     <p>or</p>
                     <p style="color: #223354;font-weight:700;">Browse</p>
@@ -58,23 +70,15 @@
             <div class="upload-file">
                 <p class="font-p-02">Upload File</p>
                 <div class="drag">
-                    <img src="/icon/small/drag-2.png" alt="" srcset=""
-                        style="top: 5px;position:relative;">
-                    <p>Drag n Drop here</p>
-                    <p>or</p>
-                    <p style="color: #223354;font-weight:700;">Browse</p>
-                </div>
-                <p class="btn">Upload Now</p>
-            </div>
-
-            <div class="upload-file">
-                <p class="font-p-02">Upload File</p>
-                <div class="drag">
-                    <img src="/icon/small/drag-2.png" alt="" srcset=""
-                        style="top: 5px;position:relative;">
-                    <p>Drag n Drop here</p>
-                    <p>or</p>
-                    <p style="color: #223354;font-weight:700;">Browse</p>
+                    <div class="drag-img">
+                        <img src="/icon/inline/Image - fill.png" alt="">
+                        <span class="drag-p">Sample.png</span>
+                    </div>
+                    <div class="drag-bar">
+                        <div class="drag-bar-content">
+                            <p style="padding-top: 8px;color:white;">50%</p>
+                        </div>
+                    </div>
                 </div>
                 <p class="btn">Upload Now</p>
             </div>
@@ -82,7 +86,7 @@
 
         <div class="right">
             <div class="progress">
-                <p>Progress Bar</p>
+                <p class="title-font">Progress Bar</p>
                 <div class="bar-01">
                     <div class="bar-content-01">
                         <p>50%</p>
@@ -91,8 +95,169 @@
                 <p>5 of 10 Progress</p>
             </div>
 
-            <div class="progress-bar">
+            <div class="prg">
+                <div class="prg-left">
+                    <div class="progress-bar">
+                        <div class="progress-bar-01">
+                            <h4>75%</h4>
+                            <p>3 of 4 Progress</p>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="prg-right">
+                    <div class="semi-progress-bar">
+                        <div class="progress-bar-02">
+                            <h4>75%</h4>
+                            <p>3 of 4 Progress</p>
+                        </div>
+                    </div>
+                    <br><br>
+
+                    <div class="progress-prg">
+                        <div class="prg-1">
+                            <p>Progress 1</p>
+                            <div >
+                                <img src="/icon/inline/Icon Checked.png" alt="">
+                            </div>
+                        </div>
+                        <div class="prg-2"></div>
+                        <div class="prg-3">
+                            <p>Progress 2</p>
+                        </div>
+                        <div class="prg-4"></div>
+                        <div class="prg-5">
+                            <p>Progress 3</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="btn-tags">
+                <p class="title-font">Tags</p>
+                <button class="btn-prim">Primary</button>
+                <button class="btn-sec">Secondary</button>
+                <button class="btn-suc">Sucess</button>
+                <button class="btn-info">Info</button>
+                <button class="btn-dan">Danger</button>
+                <button class="btn-warn">Warning</button>
+                <button class="btn-light">Light</button>
+                <button class="btn-dark">Dark</button>
+            </div>
+
+            <div class="avatar">
+                <p class="title-font">Avatar</p>
+                <div class="avatar-content">
+                    <img src="/icon/small/Yahya.png">
+                    <img src="/icon/small/Pak Ogah.png" alt="">
+                    <img src="/icon/small/Avatar 3.png" alt="">
+                    <img src="/icon/small/Sasuke.png" alt="">
+                </div>
+            </div>
+
+            <div class="badges">
+                <p class="title-font">Badges</p>
+                <div class="badges-01">
+                    <img src="/icon/badges/Badge Point.png" alt="">
+                    <img src="/icon/badges/Badge Approved.png" alt="">
+                    <img src="/icon/badges/Badge Warning.png" alt="">
+                    <img src="/icon/badges/Badge Error.png" alt="">
+                    <img src="/icon/badges/Badge Refresh.png" alt="">
+                    <img src="/icon/badges/Badge Waiting.png" alt="">
+                    <img src="/icon/badges/Badge Number Zero.png" alt="">
+                    <img src="/icon/badges/Badge Number.png" alt="">
+                    <img src="/icon/badges/Badge Number 2 digits.png" alt="">
+                    <img src="/icon/badges/Badge ++.png" alt="">
+                </div>
+                <div class="badges-02">
+                    <img src="/icon/badges/Example of icn badges.png" alt="">
+                    <img src="/icon/badges/Example of icon badge 2.png" alt="" width="32px" height="32px">
+                    <div class="tabs-content">
+                        <img src="/icon/badges/Badge Number 2 digits.png" alt="">
+                        <div class="tab-content-01">
+                            <a href="#" class="sec-1">Section 1</a>
+                            <a href="#" class="sec-2">Section 2</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="tooltips">
+                <p class="title-font">Tooltips</p>
+                <div class="tool-table-01">
+                    <div class="tool-tr-01">
+                        <div class="tooltips-01">
+                            <div class="tooltip">
+                                <span class="tooltiptext-bottom">Example Tookltips</span>
+                            </div>
+
+                            <div class="tooltip">
+                                <span class="tooltiptext-right">Example Tooltips</span>
+                            </div>
+                        </div>
+
+                        <div class="tooltips-02">
+                            <div class="tooltip">
+                                <span class="tooltiptext-left">Example Tooltips</span>
+                            </div>
+
+                            <div class="tooltip">
+                                <span class="tooltiptext-top">Example Tooltips</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tool-tr-02">
+                        <div class="tooltips-01">
+                            <div class="tooltip">
+                                <span class="tooltiptext-bottom">Tooltip</span>
+                            </div>
+
+                            <div class="tooltip">
+                                <span class="tooltiptext-right">Tooltip</span>
+                            </div>
+                        </div>
+
+                        <div class="tooltips-02">
+                            <div class="tooltip">
+                                <span class="tooltiptext-left">Tooltip</span>
+                            </div>
+
+                            <div class="tooltip">
+                                <span class="tooltiptext-top">Tooltip</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tool-table-02">
+                    <div class="bot-tool-tr-01">
+                        <div class="tooltips-01">
+                            <div class="bot-tooltiptext-bottom bot-div">
+                                <p class="bot-p">Variable are for remembering something for later</p>
+                                <button class="bot-btn">Learn More</button>
+                            </div>
+
+                            <div class="bot-tooltiptext-right bot-div">
+                                <p class="bot-p">Variable are for remembering something for later</p>
+                                <button class="bot-btn">Learn More</button>
+                            </div>
+                        </div>
+
+                        <div class="tooltips-02">
+                            <div class="bot-tooltiptext-top bot-div">
+                                <p class="bot-p">Variable are for remembering something for later</p>
+                                <button class="bot-btn">Learn More</button>
+                            </div>
+
+                            <div class="bot-tooltiptext-left bot-div">
+                                <p class="bot-p">Variable are for remembering something for later</p>
+                                <button class="bot-btn">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
