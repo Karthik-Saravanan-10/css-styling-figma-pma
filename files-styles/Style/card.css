@@ -6,22 +6,21 @@ body {
 .prev,
 .next {
     position: absolute;
-    top: 50%;
     transform: translateY(-50%);
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     border: none;
     cursor: pointer;
+    top: 76%;
 }
 
 .prev {
-    top: 272px;
-    left: 64px;
+    left: 10%;
+    z-index: 0;
 }
 
 .next {
-    top: 272px;
-    right: 400px;
+    right: 10%;
 }
 
 .btn {
@@ -37,48 +36,56 @@ body {
     border: 1px solid #1AB4D7;
 }
 
-.content-01 {
+/* .content-01 {
     position: relative;
+} */
+
+/* .content-01 img {
+    width: 100%;
+} */
+
+.content-01{
+    background-image: url(../icon/card-1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 20% 10%;
 }
 
-.content {
-    position: absolute;
-    top: 217px;
-    left: 150px;
-    width: 745px;
-    height: 119;
+.content-01 {
     color: #FFFFFF;
-
+    line-height: 1;
 }
 
 .middle-content {
     display: flex;
-    gap: 40px;
+    gap: 5%;
 }
 
 .middle-01 {
-    width: 325px;
-    height: 477px;
+    z-index: 1;
+    width: 33%;
+    height: 0%;
     border-radius: 8px 8px 0px 0px;
     box-shadow: 0px 2px 4px 0px #0000003D;
 }
 
 .middle-02 {
-    width: 325px;
-    height: 550px;
+    width: 33%;
+    height: 200%;
     box-shadow: 0px 2px 4px 0px #0000003D;
     border-radius: 8px 8px 0px 0px;
+    padding-bottom: 20px;
 }
 
 .middle-03 {
-    width: 326px;
-    height: 546px;
+    width: 33%;
+    height: auto;
     box-shadow: 0px 2px 4px 0px #0000003D;
     border-radius: 8px 8px 0px 0px;
 }
 
 .middle-02 button {
-    width: 277px;
+    width: 100%;
     height: 55px;
     border-radius: 8px;
     background-color: #223354;
@@ -94,14 +101,23 @@ body {
 
 .middle-03 div {
     position: absolute;
-    top: 311px;
+    bottom: 5%;
 }
+
+.middle-01 img,
+.middle-02 img,
+.middle-03 img {
+    width: 100%;
+    height: 100%;
+}
+
 
 .middle-01 div,
 .middle-02 div,
 .middle-03 div {
-    width: 277px;
-    padding-left: 24px;
+    z-index: 1;
+    text-align: justify;
+    padding: 14px 44px 0 44px;
 }
 
 .middle-01 h3,
@@ -131,7 +147,7 @@ body {
 }
 
 .middle-03 button {
-    width: 278px;
+    width: 100%;
     height: 55px;
     border-radius: 8px;
     background-color: #1AB4D7;
@@ -145,13 +161,13 @@ body {
 
 .bottom {
     display: flex;
-    margin-top: 52px;
-    gap: 10px;
+    margin-top: 10%;
+    gap: 5%;
 }
 
 .box-01 {
-    width: 266px;
-    height: 229px;
+    width: 23%;
+    height: fit-content;
     box-shadow: 0px 2px 4px 0px #0000003D;
     border: 1px solid #E0E0E0;
     background-color: #223354;
@@ -161,31 +177,30 @@ body {
 
 .box-02 {
     box-shadow: 0px 2px 4px 0px #0000003D;
-    width: 266px;
-    height: 236px;
+    width: 23%;
+    height: fit-content;
     border: 1px solid #223354;
     border-radius: 8px;
 }
 
 .box-03 {
     box-shadow: 0px 2px 4px 0px #0000003D;
-    width: 244px;
-    height: 213px;
+    width: 23%;
+    height: fit-content;
     border-radius: 8px;
 }
 
 .box-04 {
     box-shadow: 0px 2px 4px 0px #0000003D;
-    width: 250px;
-    height: 277px;
+    width: 23%;
+    height: fit-content;
     border-radius: 8px;
 }
 
 .box-01 div {
     padding-left: 24px;
     padding-right: 29px;
-    width: 218px;
-    height: 126px;
+    width: 80%;
 }
 
 .bottom-p {
@@ -201,15 +216,13 @@ body {
 
 .box-02 div {
     padding-left: 24px;
-    width: 218px;
-    height: 126px;
+    width: 80%;
     padding-right: 29px;
 }
 
 .box-03 div {
     padding: 0 24px;
-    width: 195px;
-    height: 91px;
+    width: 80%;
     padding-top: 24px;
 }
 
@@ -220,11 +233,11 @@ body {
 }
 
 .box-04 div {
-    padding: 24px 24px 0 24px;
+    padding: 24px 24px 24px 24px;
 }
 
 .kk-btn {
-    width: 197px;
+    width: 100%;
     height: 48px;
     padding: 14px 0px 14px 0px;
     border-radius: 6px;
@@ -232,9 +245,10 @@ body {
     color: white;
     font-size: 14px;
     font-weight: 700;
+    border: none;
 }
 
-.font-p{
+.font-p {
     font-weight: 500;
     font-size: 16px;
     color: #BDBDBD;
