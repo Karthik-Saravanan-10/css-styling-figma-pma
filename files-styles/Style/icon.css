@@ -3,6 +3,10 @@ body{
     
 }
 
+h1{
+    color: #092C4C;
+}
+
 table,tr{
     width: 90%;
     color: #828282;

@@ -2,6 +2,10 @@ body {
     font-family: Inter;
 }
 
+h1{
+    color: #092C4C;
+}
+
 .container {
     display: flex;
 }

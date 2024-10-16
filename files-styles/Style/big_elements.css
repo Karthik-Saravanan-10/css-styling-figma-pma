@@ -4,6 +4,10 @@ body {
     margin: 0 3%;
 }
 
+h1{
+    color: #092C4C;
+}
+
 .image-content {
     display: flex;
     justify-content: space-between;
@@ -74,21 +78,21 @@ body {
 }
 
 .banner-content {
-    width: 582px;
-    height: 232px;
+    height: 242px;
     background-color: #223354;
     border-radius: 8px;
     color: #FFFFFF;
     display: flex;
     box-sizing: border-box;
+    justify-content: space-around;
 }
 
 .banner-img img {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .banner-con-01 {
-    width: 377px;
+    width: 426px;
     height: 168px;
     padding-left: 24px;
 }
@@ -208,7 +212,7 @@ tr td:last-child{
 }
 
 .acc-top {
-    width: 493px;
+    width: 100%;
     /* height: 163px; */
     border: 1px solid #BDBDBD;
     border-radius: 8px;
@@ -222,7 +226,7 @@ tr td:last-child{
 }
 
 .acc-bottom {
-    width: 493px;
+    width: 100%;
     height: 181px;
 }
 
@@ -244,7 +248,7 @@ tr td:last-child{
 
 .acc-content {
     display: flex;
-    gap: 2%;
+    gap: 29px;
 }
 
 .acc-left{

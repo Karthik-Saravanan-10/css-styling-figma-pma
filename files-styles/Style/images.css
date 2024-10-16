@@ -1,7 +1,10 @@
 body{
     font-family: Inter;
-    padding-left: 48px;
-    padding-right: 48px;
+    margin: 0 48px;
+}
+
+h1{
+    color: #092C4C;
 }
 
 p{
@@ -12,15 +15,26 @@ p{
 
 .top{
     margin-bottom: 48px; 
+    width: 100%;
+}
+
+.top img{
+    width: 17%;
 }
 
 .middle-mid{
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 .middle-mid img{
     width: 100%;
+}
+
+.middle-mid div{
+    width: 18%;
+    margin-right: 47px;
 }
 
 .div-01{
@@ -34,4 +48,5 @@ p{
     display: flex;
     margin-top: 7%;
     margin-bottom: 50px;
+    width: 100%;
 }
