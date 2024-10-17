@@ -1,50 +1,52 @@
-body{
+body {
     font-family: Inter;
     margin: 0 48px;
 }
 
-h1{
+h1 {
     color: #092C4C;
+    padding-top: 48px;
+    font-size: 56px;
 }
 
-p{
+p {
     color: #BDBDBD;
     font-size: 16px;
     font-weight: 500;
 }
 
-.top{
-    margin-bottom: 48px; 
+.top {
+    margin-bottom: 48px;
     width: 100%;
 }
 
-.top img{
+.top img {
     width: 17%;
 }
 
-.middle-mid{
+.middle-mid {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 
-.middle-mid img{
+.middle-mid img {
     width: 100%;
 }
 
-.middle-mid div{
+.middle-mid div {
     width: 18%;
     margin-right: 47px;
 }
 
-.div-01{
+.div-01 {
     width: 187px;
     height: 177px;
     border-radius: 16px;
     margin-right: 34px;
 }
 
-.bottom{
+.bottom {
     display: flex;
     margin-top: 7%;
     margin-bottom: 50px;

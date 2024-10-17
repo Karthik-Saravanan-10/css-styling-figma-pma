@@ -4,8 +4,17 @@ body {
     margin: 0 3%;
 }
 
-h1{
+h1 {
     color: #092C4C;
+}
+
+.no-img {
+    font-size: 24px;
+    font-weight: 500;
+    color: #828282;
+    position: absolute;
+    padding: 127px 110px;
+    box-sizing: border-box;
 }
 
 .image-content {
@@ -17,16 +26,16 @@ h1{
 .img-con-01,
 .img-con-02,
 .img-con-03,
-.img-con-04{
-  width: 23%;
+.img-con-04 {
+    width: 23%;
 }
 
 .img-con-01 img,
 .img-con-02 img,
 .img-con-03 img,
-.img-con-04 img{
+.img-con-04 img {
     width: 100%;
-  }
+}
 
 .tables {
     margin-top: 48px;
@@ -69,11 +78,11 @@ h1{
     width: 100%;
 }
 
-.model{
+.model {
     width: 50%;
 }
 
-.banner{
+.banner {
     width: 50%;
 }
 
@@ -171,7 +180,7 @@ tr {
     border-radius: 4px;
 }
 
-tr td:last-child{
+tr td:last-child {
     text-align: center;
 }
 
@@ -191,8 +200,8 @@ tr td:last-child{
     border-radius: 8px;
 }
 
-.kk-model-con-01{
-    text-align: center  ;
+.kk-model-con-01 {
+    text-align: center;
     padding: 10%;
 }
 
@@ -251,7 +260,7 @@ tr td:last-child{
     gap: 29px;
 }
 
-.acc-left{
+.acc-left {
     width: 50%;
 }
 

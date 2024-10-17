@@ -2,80 +2,97 @@
     font-family: Inter;
 }
 
-.container{
+body{
+    margin: 0;
+    padding: 0 48px;
+}
+
+.container {
     margin-top: 0;
     display: flex;
     justify-content: space-between;
     align-content: space-between;
 }
 
-div{
+div {
     border-radius: 10px;
 }
 
-.left{
+.left {
     width: 45%;
     height: auto;
 }
 
-.right{
+.right {
     flex: 1;
     float: left;
 }
 
-h1{
+h1 {
     color: #092C4C;
+    font-size: 56px;
+    padding-top: 20px;
+    padding-bottom: 44px;
+   
 }
 
-.big{
-    
+.big {
+
     width: 154px;
     height: 157px;
 }
 
-.small{
+.span-code {
+    color: #828282;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.small {
     width: 55px;
     height: 70px;
 }
 
-.state, .black ,.gray{
+.state,
+.black,
+.gray {
     display: flex;
     text-align: center;
     padding-bottom: 60px;
 }
 
-.fo-color{
+.fo-color {
     color: #828282;
 }
 
-.fo-color-01{
+.fo-color-01 {
     color: #092C4C;
     font-weight: 700;
 }
 
-div.state div{
+div.state div {
     padding-left: 30px;
 }
 
-div.state p:first-child{
+div.state p:first-child {
     font-size: 25px;
     color: #828282;
 }
 
-div.gray div{
+div.gray div {
     padding-left: 30px;
 }
 
-div.gray p:first-child{
+div.gray p:first-child {
     font-size: 25px;
     color: #828282;
 }
 
-div.black div{
+div.black div {
     padding-left: 30px;
 }
 
-div.black p:first-child{
+div.black p:first-child {
     font-size: 25px;
     color: #828282;
 }

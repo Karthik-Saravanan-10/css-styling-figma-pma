@@ -1,17 +1,21 @@
-body{
+body {
     font-family: Inter;
+    margin: 0;
+    padding: 0 46px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
-h1{
+h1 {
     color: #092C4C;
 }
 
-.container{
+.container {
     display: flex;
-    padding-left: 48px;
+    margin-bottom: 15%;
 }
 
-div{
+div {
     width: 100%;
 }
 
@@ -25,18 +29,24 @@ div{
 .right-box {
     background-color: #EDF0F5;
     padding: 21px;
-    width: 360px;
+    width: 450px;
     line-height: 0.3;
     box-sizing: border-box;
+    border-radius: 4px;
 }
 
-div.right-box p:first-child{
+.right-box-code {
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+div.right-box p:first-child {
     color: black;
     font-size: 18px;
     font-weight: 700;
 }
 
-div.right-box p{
+div.right-box p {
     font-weight: 400;
     color: #BDBDBD;
 }
@@ -55,6 +65,7 @@ input::placeholder {
     font-size: 16px;
     padding-left: 24px;
     font-weight: 400;
+    color: #4F4F4F;
 }
 
 
@@ -64,38 +75,38 @@ input::placeholder {
     color: #BDBDBD;
 }
 
-.box-01{
+.box-01 {
     border: 1px solid #BDBDBD;
     border-style: dashed;
     width: 355px;
     padding-left: 20px;
 }
 
-div.success input{
+div.success input {
     border: 1px solid #27AE60;
 }
 
-div.success p{
+div.success p {
     color: #27AE60;
     font-size: 14px;
     font-weight: 400;
 }
 
-div.warning input{
+div.warning input {
     border: 1px solid #E2B93B;
 }
 
-div.warning p{
+div.warning p {
     color: #E2B93B;
     font-size: 14px;
     font-weight: 400;
 }
 
-div.error input{
+div.error input {
     border: 1px solid #EB5757;
 }
 
-div.error p{
+div.error p {
     color: #EB5757;
     font-size: 14px;
     font-weight: 400;
@@ -111,7 +122,7 @@ label {
     font-weight: 700;
 }
 
-textarea{
+textarea {
     height: 268px;
     width: 320px;
     resize: none;
@@ -120,28 +131,30 @@ textarea{
     font-family: Inter;
     color: #4F4F4F;
     font-weight: 400;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
 }
 
-.position{
+.position {
     position: relative;
 }
 
-.position-pointer{
+.position-pointer {
     position: absolute;
     top: 75px;
     left: 280px;
 }
 
-.con{
+.con {
     height: 150px;
     /* margin-top: 50px; */
 }
 
-.right{
+.right {
     display: flex;
     align-items: center;
 }
 
-.middle .con{
+.middle .con {
     margin-top: 40px;
 }

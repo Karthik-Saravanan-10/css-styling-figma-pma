@@ -3,10 +3,6 @@ body {
     padding: 0 50px;
 }
 
-h1{
-    color: #092C4C;
-}
-
 .prev,
 .next {
     position: absolute;
@@ -19,7 +15,7 @@ h1{
 }
 
 .prev {
-    left: 10%;
+    left: 7.5%;
     z-index: 0;
 }
 
@@ -48,6 +44,15 @@ h1{
     width: 100%;
 } */
 
+.content{
+    width: 60%;
+}
+
+.content p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
 .content-01{
     background-image: url(../icon/card-1.png);
     background-size: 100%;
@@ -58,6 +63,10 @@ h1{
 .content-01 {
     color: #FFFFFF;
     line-height: 1;
+}
+
+.middle{
+    margin-top: 48px;
 }
 
 .middle-content {
@@ -165,7 +174,7 @@ h1{
 
 .bottom {
     display: flex;
-    margin-top: 10%;
+    margin-top: 5%;
     gap: 5%;
 }
 

@@ -1,5 +1,8 @@
 body {
     font-family: Inter;
+    margin: 0;
+    padding:0 40px;
+    box-sizing: border-box;
 }
 
 h1{
@@ -8,6 +11,7 @@ h1{
 
 .container {
     display: flex;
+    width: 100%;
 }
 
 .content-01 {
@@ -15,19 +19,29 @@ h1{
     gap: 84px;
 }
 
-.container {
-    padding: 0 48px;
+.left {
+    width: 35%;
+    height: fit-content;
 }
 
-.left {
-    width: 420px;
-    height: fit-content;
+.middle{
+    width: 60%;
+}
+
+.middle-01,
+.middle-02,
+.middle-03{
+    width: 20%;
 }
 
 .left-p {
     font-weight: 500;
     color: #BDBDBD;
     font-size: 16px;
+}
+
+.p-spacing{
+    margin: 0;
 }
 
 select {
@@ -100,7 +114,11 @@ button {
     display: flex;
 }
 
-.large-selecet-01 {
+.large-select{
+    margin-top: 40px;
+}
+
+.large-select-01 {
     border-radius: 6px;
     text-align: center;
     font-weight: 500;
@@ -110,7 +128,7 @@ button {
     margin-bottom: 16px;
 }
 
-.large-selecet-02 {
+.large-select-02 {
     border-radius: 6px;
     text-align: center;
     font-weight: 500;
@@ -124,7 +142,7 @@ button {
 }
 
 .calender {
-    margin-top: 2px;
+    margin-top: 40px;
     margin-left: 63px;
     width: 250px;
     height: 307px;
@@ -166,6 +184,7 @@ tr td {
     color: #BDBDBD;
     font-weight: 500;
     font-size: 16px;
+    margin: 0;
 }
 
 .pagi-content p:first-child {
@@ -192,12 +211,14 @@ tr td {
 }
 
 /* breadscreams */
+
 .bread-content {
     display: inline-flex;
     align-items: center;
     font-size: 16px;
     font-weight: 500;
     color: #828282;
+    margin-top: 8%;
 }
 
 /* tabs */
@@ -222,11 +243,12 @@ a:hover{
     box-sizing: border-box;
     width: 155px;
     border-bottom: 4px solid #E0E0E0;
+    margin-top: 20%;
 }
 /* 610px -top */
 .bottom{
     position: absolute;
-    top: 510px;  
+    top: 75%;  
     display: flex;
     gap: 100px;
 }
