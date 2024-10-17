@@ -175,11 +175,11 @@ body {
 .bottom {
     display: flex;
     margin-top: 5%;
-    gap: 5%;
+    gap: 20px;
 }
 
 .box-01 {
-    width: 23%;
+    width: 25%;
     height: fit-content;
     box-shadow: 0px 2px 4px 0px #0000003D;
     border: 1px solid #E0E0E0;
@@ -190,7 +190,7 @@ body {
 
 .box-02 {
     box-shadow: 0px 2px 4px 0px #0000003D;
-    width: 23%;
+    width: 25%;
     height: fit-content;
     border: 1px solid #223354;
     border-radius: 8px;
@@ -198,14 +198,14 @@ body {
 
 .box-03 {
     box-shadow: 0px 2px 4px 0px #0000003D;
-    width: 23%;
+    width: 25%;
     height: fit-content;
     border-radius: 8px;
 }
 
 .box-04 {
     box-shadow: 0px 2px 4px 0px #0000003D;
-    width: 23%;
+    width: 25%;
     height: fit-content;
     border-radius: 8px;
 }
